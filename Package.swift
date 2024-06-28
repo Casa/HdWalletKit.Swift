@@ -23,7 +23,7 @@ let package = Package(
             dependencies: [
                 .product(name: "Crypto", package: "swift-crypto"),
                 .product(name: "_CryptoExtras", package: "swift-crypto"),
-                .product(name: "secp256k1", package: "secp256k1.swift", moduleAliases: ["secp256k1": "secp256k1-gigabitcoin"]),
+                .product(name: "secp256k1", package: "secp256k1.swift", moduleAliases: ["secp256k1": "secp256k1_gigabitcoin"]),
                 .product(name: "HsCryptoKit", package: "HsCryptoKit.Swift"),
             ]),
         .testTarget(
